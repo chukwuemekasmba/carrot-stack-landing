@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: 'CarrotStack',
     description: 'Stack Expenses, Track Payments, and Manage Funds.',
     images: {
-      url: 'https://og-image.sznm.dev/**nextarter-chakra**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250',
+      url: '/social-image.png',
       alt: 'og-image',
     },
   },
