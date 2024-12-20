@@ -1,1 +1,1 @@
-pnpm check:turbo
+npx pnpm check:turbo
