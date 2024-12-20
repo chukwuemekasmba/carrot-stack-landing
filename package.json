@@ -1,8 +1,8 @@
 {
-  "name": "nextarter-chakra",
+  "name": "carrot-stack-landing",
   "version": "0.1.0",
   "private": true,
-  "author": "agustinusnathaniel",
+  "author": "chukwuemekasmba",
   "engines": {
     "node": ">=22.11.x",
     "pnpm": ">=9"
@@ -17,6 +17,7 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "eslint src --fix && pnpm format",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "type-check": "tsc --noEmit",
     "check:turbo": "pnpm turbo lint type-check",
     "test:e2e": "playwright test",

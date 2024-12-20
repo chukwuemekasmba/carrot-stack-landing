@@ -33,12 +33,9 @@ export const Page404 = () => {
           Page not Found.
         </Heading>
 
-        <Box textAlign="center" marginTop={4}>
-          <Text fontSize="sm" color="gray">
-            It&apos;s Okay!
-          </Text>
+        <Box display={"flex"} flexDirection="column" justifyContent={"space-between"}  alignItems="center" gap={5} textAlign="center" marginTop={4}>
           <Button asChild size="sm">
-            <Link href="/">Let&apos;s Head Back</Link>
+            <Link href="/">Go Back Home</Link>
           </Button>
         </Box>
       </Box>
